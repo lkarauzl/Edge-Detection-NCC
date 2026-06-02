@@ -1,5 +1,3 @@
-üyük ihtimalle kopyalarken aradaki kod bloklarından () biri tam kapanmadı ya da Markdown biçimlendirmesine fazladan bir işaret karıştı. GitHub'da eğer bir kod bloğu () açık kalırsa, ondan sonra gelen hiçbir ## başlık olarak algılanmaz, düz metin veya kod gibi görünür. Başı iyi olup sonradan bozulmasının sebebi tam olarak budur.
-Hiç uğraşma, aşağıya en temiz halini dışarıda bırakıyorum. GitHub'daki README.md dosyanı düzenle (kalem ikonuna bas), içindekilerin hepsini sil ve sadece şu iki yatay çizgi arasındaki metni kopyalayıp yapıştır:
 Edge Detection with Scale-Space Denoising and Automatic Thresholding
 This repository contains the Python implementation of the Noise-Calibrated Canny (NCC) edge detection pipeline. This project was developed as a term project for the Computer Engineering department at Abdullah Gül University (AGÜ).
 Project Overview
