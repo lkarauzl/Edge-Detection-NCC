@@ -1,3 +1,4 @@
+Markdown
 # Edge Detection with Scale-Space Denoising and Automatic Thresholding
 
 This repository contains the Python implementation of the **Noise-Calibrated Canny (NCC)** edge detection pipeline. This project was developed as a term project for the Computer Engineering department at Abdullah Gül University (AGÜ).
@@ -22,3 +23,22 @@ To run the code, you need Python 3.x and the following libraries installed:
 You can install the dependencies using pip:
 ```bash
 pip install opencv-python numpy matplotlib scikit-learn scikit-image
+Usage
+Simply run the main Python script. The script uses a standard test image from the skimage library, injects synthetic Gaussian noise, and compares the baseline Canny algorithm with the proposed NCC method.
+Bash
+python main.py
+Outputs
+The script will output the following to the console:
+Estimated noise level (MAD)
+Automatically calculated hysteresis thresholds (T 
+low
+​	
+  and T 
+high
+​	
+ )
+Execution times for both algorithms
+F1-Scores (Edge overlap compared to a clean ground truth)
+Additionally, it will generate and save a comparative plot named edge_comparison_results.png showing the original noisy image, ground truth edges, baseline Canny output, and the NCC output.
+License
+This project is open-source and available under the MIT License.
