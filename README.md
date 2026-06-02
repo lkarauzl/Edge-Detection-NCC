@@ -21,7 +21,7 @@ To run the code, you need Python 3.x and the following libraries installed:
 * `scikit-image`
 
 You can install the dependencies using pip:
-```bash
+bash
 pip install opencv-python numpy matplotlib scikit-learn scikit-image
 Usage
 Simply run the main Python script. The script uses a standard test image from the skimage library, injects synthetic Gaussian noise, and compares the baseline Canny algorithm with the proposed NCC method.
